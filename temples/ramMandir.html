@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/ramMandir.css">
+  <title>RamMandir Danation Management</title>
+
+</head>
+
+<body>
+  <h1 align="center">Ram Mandir</h1>
+  <div class="jumbotron">
+    <div class="container">
+      <img src="../images/ramMandir.jpg" alt="rammandirPic" height="100%" width="100%">
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../images/ramMandirQR.png" alt="QRcode" height="100%">
+      </div>
+      <div class="col-md-6">
+        <h3>Account Info:-</h3>
+        <p>A/c Name: Shri Ram Janmbhoomi <br>A/C No.:27737849493 <br>IFSC Code:XXXXX</p>
+        <h3>UPI ID</h3>
+        <p>singh.ripunjay66@okaxis</p>
+        <h3>Point Of Contact</h3>
+        <p>+91800952211</p>
+      </div>
+
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2 class="display-3">RamMandir</h2>
+        <p>Want to know more about temple...</p>
+        <p><a class="btn btn-primary btn-lg" href="https://srjbtkshetra.org/" role="button">Know more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(26.795719265139844, 82.1944167129992),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLi2j-4OhutCWsITm33SnRchdI8gHh9xo&callback="myMap"></script>
+
+
+
+</body>
+
+</html>

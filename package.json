@@ -1,0 +1,22 @@
+{
+  "name": "major-spe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RipunjaySingh25/Major-SPE.git"
+  },
+  "author": "Ripunjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RipunjaySingh25/Major-SPE/issues"
+  },
+  "homepage": "https://github.com/RipunjaySingh25/Major-SPE#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
