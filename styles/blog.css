@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+}
+h1{
+  color: skyblue;
+}
+.blogouter{
+  width: 90%;
+  margin: 1rem;
+  border-width: 2px;
+  border-style: groove;
+}
