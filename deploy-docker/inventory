@@ -1,2 +1,2 @@
 [ubuntu]
-localhost ansible_user=hp
+localhost ansible_user= ripunjay-vivobook
